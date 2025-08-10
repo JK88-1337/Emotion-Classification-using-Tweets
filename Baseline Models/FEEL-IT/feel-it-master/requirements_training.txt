@@ -1,0 +1,14 @@
+# Core feel-it requirements
+transformers>=4.11.3
+numpy
+torch>=1.6.0
+
+# Additional requirements for training
+scikit-learn>=1.0.0
+pandas>=1.3.0
+datasets>=1.8.0
+accelerate>=0.5.0
+tensorboard>=2.8.0
+
+# Optional: for better performance
+# apex  # Uncomment if you want to use mixed precision training 
